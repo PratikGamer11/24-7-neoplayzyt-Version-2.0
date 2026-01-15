@@ -1,0 +1,60 @@
+{
+  "bot-account": {
+    "username": "botbypratik",
+    "type": "offline"
+  },
+
+  "server": {
+    "ip": "Nightshade1003.aternos.me",
+    "port": 23136,
+    "version": "1.16.5"
+  },
+
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "pratik"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
+
+      "hit": {
+        "enabled": false,
+        "delay": 1000,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": false,
+        "radius": 2
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "I'm a bot made by pratikgamer11",
+        "My owner is Pratikgamer11",
+        "I am online 24/7 forever secure forever online."
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000
+  }
+}
